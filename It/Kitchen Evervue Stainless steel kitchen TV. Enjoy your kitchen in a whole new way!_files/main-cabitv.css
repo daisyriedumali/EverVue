@@ -1,0 +1,227 @@
+/*
+ CabiTV Styling 
+ Author: Errol B. Tiozon
+=== Table of Contents ===
+I. 	Base
+II.	Navigation
+=========================
+*/
+
+/*
+I. Base
+*/
+
+* {
+	box-sizing:border-box;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+}
+
+.page-section {
+	margin-bottom:80px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color:#333;
+	font-weight:700;
+	margin:0 0 .4em 0;
+}
+
+p, span {
+	color:#333;
+	line-height:30px;
+}
+
+h2 {
+	font-size: 4.5rem;
+}
+
+ul {
+	list-style:none;
+}
+
+.align-left {
+	text-align: left;
+}
+
+.align-right {
+	text-align: right;
+}
+
+.align-center {
+	text-align: center;
+}
+
+.primary-btn {
+	background: #f4c73d;
+	border-radius:2px;
+	color:#fff;
+	display:inline-block;
+	padding: .8em 1.3em;
+	transition: background .3s
+}
+
+.primary-btn:hover {
+	color:#fff;
+	background: #F4DA3D;
+}
+
+/*
+II. Navigation
+*/
+
+.main-nav-desktop {
+	background:rgba(255, 255, 255, 0);
+	border:0;
+}
+
+.main-nav-desktop .logo {
+	padding: .6em 0;
+}
+
+.main-nav-desktop .logo img {
+	width: 150px;
+}
+
+.main-nav-desktop .navlinks {
+	margin-bottom: 0;
+	padding: .9em 0;
+}
+
+.main-nav-desktop .navlinks li {
+	font-size: 18px;
+	text-align: center;
+}
+
+.navlinks li a {
+	color: #fff;
+	display:block;
+	padding: 10px 0;
+	transition: background .3s;
+}
+
+.navlinks li a:hover {
+	background:#f4c73d;
+	color:#fff;
+	border-radius: 2px;
+}
+
+/*
+III. Image Carousel / Image Header
+*/
+
+.page-wrapper .header-img {
+	padding: 0!important;
+}
+
+/*
+IV. Product Information Section
+*/
+
+.product-section header {
+	margin: 0 auto 50px;
+	text-align:center;
+	width:50%;
+}
+
+.product-section header p {
+	line-height:30px;
+}
+
+.product-section .nav-tabs {
+	margin-bottom:3em;
+}
+
+.product-section .nav-tabs li {
+	font-size:20px;
+	font-weight: bold;
+}
+
+.product-section .nav-tabs a {
+	color: #333;
+}
+
+.product-section .nav-tabs a:hover {
+	background: transparent;
+	border: 0;
+	color:#333;
+	cursor:pointer;
+}
+
+.product-section .nav-tabs .active>a,
+.product-section .nav-tabs .active>a:focus,
+.product-section .nav-tabs .active>a:hover {
+	background:transparent;
+	border: 0;
+	border-bottom: 3px solid #f4c73d;
+	color:#f4c73d;
+	cursor:pointer;
+}
+
+.product-section .tab-content .tab-pane p {
+	float:none;
+	margin:0 auto 3em;
+}
+
+/*
+V. Promotion Section
+*/
+
+.promotion-section {
+	background:#f5f5f5;
+	border-top:1px solid #ececec;
+	border-bottom:1px solid #ececec;
+	padding: 3em 0;
+}
+
+.promotion-section header {
+	float:none;
+	margin:0 auto 4em;
+}
+
+/*
+VI. Installation Section
+*/
+
+.installation-section header {
+	float: none;
+	margin: 0 auto 4em;
+}
+
+.installation-section .carousel {
+	margin-bottom: 3em;
+	position: relative;
+}
+
+.installation-section .carousel .hand-element {
+	position:absolute;
+	bottom:0;
+	left:50%;
+	transform: translate(-50%, 0);
+}
+
+.installation-section .carousel-inner img {
+	width:100%;
+}
+
+/*
+VIII. Kitchen Section
+*/
+
+.kitchen-section header {
+	float: none;
+	margin: 0 auto 3em;
+	text-align: center;
+}
+
+.kitchen-section header p {
+	margin-bottom: 1.5em;
+}
+
+.kitchen-section .img-full img {
+	width:100%;
+}
+
+
+
+
