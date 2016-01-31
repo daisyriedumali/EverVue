@@ -208,6 +208,10 @@ VI. Installation Section
 VIII. Kitchen Section
 */
 
+.kitchen-section {
+	margin-bottom: 0;
+}
+
 .kitchen-section header {
 	float: none;
 	margin: 0 auto 3em;
@@ -220,6 +224,69 @@ VIII. Kitchen Section
 
 .kitchen-section .img-full img {
 	width:100%;
+}
+
+
+/*
+IX. Quicklinks Section
+*/
+
+.quicklinks-section {
+	background: #333;
+	padding: 2em 0;
+}
+
+.quicklinks-section li {
+	text-align: center;
+}
+
+.quicklinks-section li span {
+	color: #fff;
+}
+
+
+/*
+X. Order Form
+*/
+
+.order-form {
+	background: #f4c73d;
+	padding: 2em 0;
+}
+
+.order-form header {
+	float: none;
+	margin: 0 auto 3em;
+	text-align: center;
+}
+
+.order-form header h2 {
+	color: #fff;
+}
+
+.order-form form {
+	float: none;
+	margin: 0 auto;
+}
+
+
+/*
+XI. Footer
+*/
+
+footer {
+	background: #333;
+	padding: 3em 0;
+	text-align: center;
+}
+
+footer .info-container li {
+	border-right: 1px solid #3c3c3c;
+}
+
+footer .contact-support h4 {
+	color: #666;
+	font-weight: 400;
 }
 
 
