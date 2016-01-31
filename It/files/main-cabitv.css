@@ -106,6 +106,14 @@ II. Navigation
 	border-radius: 2px;
 }
 
+.navlinks li .active {
+	color: #333;
+}
+
+.navlinks li .active:hover {
+	background: #f4c73d;
+	color: #fff;
+}
 /*
 III. Image Carousel / Image Header
 */
